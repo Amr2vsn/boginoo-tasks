@@ -6,7 +6,9 @@ export const HomeDefault = () => {
         <Layout>
             <div className='h100 flex flex-col'>
                 <div className='flex justify-center items-center'>
-                    <IconStartBracket />
+                    <div className='w-7'>
+                        <IconStartBracket />
+                    </div>
                     <IconDash />
                     <IconEndBracket />
                 </div>

@@ -24,6 +24,6 @@ export const Button = (props) => {
       
     */
     return (
-        <button className={`btn ${className} ${disabled && 'disabled'}`} {...others}>{children}</button>
+        <button className={`btn pointer ${className} ${disabled && 'disabled'}`} {...others}>{children}</button>
     );
 };
