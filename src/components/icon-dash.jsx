@@ -11,6 +11,8 @@ export const IconDash = () => {
 	*/
 
 	return (
-		<svg></svg>
+		<svg>
+			<path d="public/Vector.png"/>	
+		</svg>
 	);
 };
