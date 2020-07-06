@@ -1,6 +1,6 @@
 import React from 'react';
-import { HomeDefault } from './pages';
-import {
+import { HomeDefault, Login} from './pages';
+import { 
     BrowserRouter as Router,
     Switch,
     Route,
@@ -14,6 +14,9 @@ const App = () => {
             <Switch>
                 <Route path="/" exact>
                     <HomeDefault />
+                </Route>
+                <Route path="/login">
+                    <Login />
                 </Route>
             </Switch>
         </Router>
