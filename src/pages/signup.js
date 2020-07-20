@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Button, Input, IconDash, IconEndBracket, IconStartBracket } from '../components/';
 
-export const Login = () => {
+export const Signup = () => {
     return (
         <Layout>
             <div className='h100 flex flex-col'>
@@ -11,10 +11,10 @@ export const Login = () => {
                     <IconEndBracket />
                 </div>
                 <div className='font-lobster c-primary fs-40 lh-44 flex-center'>
-                    Bogin Login
+                   Sign-up
                 </div>
                 <div className='font-ubuntu c-primary fs-20 lh-44 flex-center'>
-                Нэвтрэх
+                Бүртгүүлэх
                 </div>
                 <div className='mt-5 flex justify-around flex-colce'>
                     
@@ -23,7 +23,7 @@ export const Login = () => {
                     <div className="font-ubuntu"> password</div>
                     <Input className='h-5 ph-4' placeholder='password' />
                     
-                    <Button className="font-ubuntu lh-23 bold c-default h-5 ph-4 ml-3 b-primary">Нэвтрэх</Button>
+                    <Button className="font-ubuntu lh-23 bold c-default h-5 ph-4 ml-3 b-primary">Бүртгүүлэх</Button>
                 </div>
             </div>
         </Layout>
