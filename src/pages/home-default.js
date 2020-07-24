@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Layout, Button, Input, IconDash, IconEndBracket, IconStartBracket } from '../components/';
+import { useSimple } from '../firebase';
 
 export const HomeDefault = () => {
+    const c = useSimple();
+
+    useEffect(() => {
+        console.log(c);
+    }, [c])
+
     return (
         <Layout>
             <div className='h100 flex flex-col'>
+                <h1>{c}</h1>
                 <div className='flex justify-center items-center'>
                     
                         <IconStartBracket />
