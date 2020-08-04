@@ -11,7 +11,7 @@ export const HomeDefault = () => {
 
     return (
         <Layout>
-            <div className='h100 flex flex-col'>
+            <div className='h100 flex flex-col justify-center items-center'>
                 <h1>{c}</h1>
                 <div className='flex justify-center items-center'>
                     
